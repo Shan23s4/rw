@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/54231a2241.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="main">
+        <nav>
+          <h1 class="logo">SM</h1>
+          
+          <!-- <img src="Images/logo.png" class="logo" /> -->
+          <ul id="sidemenu">
+            <li>
+              <a href="#header">Home</a>
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+              <i class="fa-regular fa-circle-xmark fas" onclick="closemenu()"></i>
+
+            </li>
+          </ul>
+          <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+
+          <div id="mode">
+            <p id="mtext">Light</p><img width="20px" src="Images/sun.png" alt="">
+          </div>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Developer</p>
+          <h1>
+            Hi, I am <span>Shah Muhammad</span> <br />
+            from Pakistan
+          </h1>
+          <img width="290vw" height="400vh" src="Images/user-removebg-preview.png" id="user">
+        </div>
+      </div>
+    </div>
+    <!-- --------------About---------------- -->
+    <div id="about" data-aos="fade-in">
+      <div class="row">
+        <div class="about-col-1">
+        </div>
+        <div class="about-col-2">
+          <h1 class="Sub-title">About Me</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            soluta a ipsam beatae! Doloribus est inventore similique quia vero.
+            Animi optio soluta suscipit doloremque labore nulla dicta. Culpa,
+            corrupti reiciendis! Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Odit quia distinctio vero nostrum molestias
+            eveniet minus quibusdam repellat doloribus quasi, tempore quaerat
+            dolore sapiente unde excepturi harum! Non, facilis deleniti!
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Skills')">Experiences</p>
+            <p class="tab-links" onclick="opentab('Skills')">Education</p>
+          </div>
+          <div class="tab-content  active-tab " id="Skills">
+            <ul><li>
+                <span>Front-End</span> <br>
+                Web-Desinging
+            </li></ul>
+            <ul><li>
+                <span>Web Development</span> <br>
+                Web-Desinging
+            </li></ul>
+            <ul><li>
+                <span>App development</span> <br>
+                Build Backend in Website
+            </li></ul>
+          </div>
+          <div class="tab-content" id="Experiences" id="Education"  >
+            <ul><li>
+                <span>2021-2022</span> <br>
+                Web-Desinging At Self Experience
+            </li></ul>
+            <ul><li>
+                <span>2024-Current</span> <br>
+                Web Development  At Self Experience
+            </li></ul>
+            <ul><li>
+                <span>2019-2020</span> <br>
+                Build Backend in Website  At Self Experience
+            </li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------- Services----------------------------- -->
+<div id="services"  data-aos="fade-in">
+  <div class="main">
+    <h1 class="Sub-title">My services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime esse sint, corrupti rerum consectetur vel dolorum omnis saepe velit. Illum optio, porro voluptates similique nam nesciunt eaque ab sit.</p>
+        <a href="#">Learn More....</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Web Desinging</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime esse sint, corrupti rerum consectetur vel dolorum omnis saepe velit. Illum optio, porro voluptates similique nam nesciunt eaque ab sit.</p>
+        <a href="#">Learn More....</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>Web Backend</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime esse sint, corrupti rerum consectetur vel dolorum omnis saepe velit. Illum optio, porro voluptates similique nam nesciunt eaque ab sit.</p>
+        <a href="#">Learn More....</a>
+      </div>
+
+
+    </div>
+    
+
+  </div>
+</div>
+<!----------------------Portfolio------------------- -->
+<div id="portfolio"  data-aos="fade-in">
+  <div class="main">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list" >
+      <div class="work" >
+        <img src="Images/work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad hic ullam, in quisquam laborum neque maxime dignissimos accusamus, reiciendis consequatur velit vero soluta cupiditate quam pariatur laboriosam beatae nisi aliquam.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Images/work-2.png">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad hic ullam, in quisquam laborum neque maxime dignissimos accusamus, reiciendis consequatur velit vero soluta cupiditate quam pariatur laboriosam beatae nisi aliquam.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Images/work-3.png">
+        <div class="layer">
+          <h3>Online Showping App</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad hic ullam, in quisquam laborum neque maxime dignissimos accusamus, reiciendis consequatur velit vero soluta cupiditate quam pariatur laboriosam beatae nisi aliquam.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-- -----------Contact---------------- -->
+<div id="contact"  data-aos="fade-in">
+  <div class="main">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-regular fa-paper-plane"></i>ShahMuhammadniz65@gmail.com</p>
+        <p> <i class="fa-solid fa-phone-volume"></i>03173157149</p>
+        <div class="social-icon">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+        <a href="Images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+       
+      </div>
+      <div class="contact-right">
+        <form >
+          <input type="text" name="Name" placeholder=" Your Name">
+          <input type="email" name="email"  placeholder="Your Email " required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+          
+      </div>
+    </div>
+
+  </div>
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:400,
+    duration:800,
+  });
+</script> 
+    <script src="App.js"></script>
+  </body>
+</html>
